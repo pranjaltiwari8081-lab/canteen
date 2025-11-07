@@ -1,0 +1,54 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+
+# Environment files
+.env
+.env.*
+*.env
+
+# Render local build cache (if any)
+.render/
+
+# Model files (optional - if large)
+*.pkl
+*.joblib
+*.sav
+*.h5
+*.pt
+
+# Data files (optional - if local only)
+*.csv
+*.xlsx
+*.json
